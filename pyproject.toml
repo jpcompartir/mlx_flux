@@ -1,0 +1,15 @@
+[project]
+name = "mlx-flux"
+version = "0.1.0"
+description = "Train Flux LORA's locally with MLX"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mlx>=0.18.1",
+    "huggingface-hub",
+    "regex",
+    "numpy",
+    "tqdm",
+    "Pillow",
+    "sentencepiece",
+]
